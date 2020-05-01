@@ -1,0 +1,254 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - electron-react-titlebar > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - react-toastr > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - redux > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - '@exponent/electron-cookies > tough-cookie-web-storage-store > lodash':
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-plugin-dynamic-import-node > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-plugin-dynamic-import-node > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-plugin-dynamic-import-node > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - poi-asset-themes > babel-eslint > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - poi-asset-themes > babel-eslint > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-plugin-dynamic-import-node > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-plugin-dynamic-import-node > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - poi-asset-themes > babel-eslint > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-es2017-node7 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-plugin-transform-decorators > babel-helper-explode-class > babel-helper-bindify-decorators > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T02:59:44.793Z'
