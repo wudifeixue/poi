@@ -90,7 +90,7 @@
     "reselect": "^3.0.0",
     "semver": "^5.4.1",
     "socks5-client": "^1.2.5",
-    "socks5-http-client": "^1.0.1",
+    "socks5-http-client": "^1.0.3",
     "yargs": "^8.0.2"
   },
   "devDependencies": {
